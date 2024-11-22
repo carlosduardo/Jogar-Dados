@@ -10,6 +10,8 @@ function jogarDado(){
     const imagens = [];
 
     if(quantidadeDeDados < 1 || quantidadeDeDados > 10){
+        resultadoDados.textContent = "";
+        imagemDados.textContent = "";
         return resultadoDados.textContent = "Valor fora do padrão, escolha um número entre 1 a 10"
     }
     
